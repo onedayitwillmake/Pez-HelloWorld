@@ -9,6 +9,40 @@
 /* Begin PBXBuildFile section */
 		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
 		8DD76F6A0486A84900D96B5E /* PezHelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* PezHelloWorld.1 */; };
+		ED7D36971309D3760088382B /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED7D36961309D3760088382B /* Triangle.cpp */; };
+		ED7D369D1309D3B90088382B /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF4A1309CB12008237CD /* glew.c */; };
+		ED7D369E1309D3B90088382B /* bstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF4F1309CB12008237CD /* bstrlib.c */; };
+		ED7D369F1309D3B90088382B /* glsw.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF511309CB12008237CD /* glsw.c */; };
+		ED7D36A01309D3B90088382B /* Alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF541309CB12008237CD /* Alloc.c */; };
+		ED7D36A11309D3B90088382B /* LzFind.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF561309CB12008237CD /* LzFind.c */; };
+		ED7D36A21309D3B90088382B /* LzmaDec.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF591309CB12008237CD /* LzmaDec.c */; };
+		ED7D36A31309D3B90088382B /* LzmaEnc.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF5B1309CB12008237CD /* LzmaEnc.c */; };
+		ED7D36A41309D3B90088382B /* LzmaLib.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF5D1309CB12008237CD /* LzmaLib.c */; };
+		ED7D36A51309D3B90088382B /* pez.cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF641309CB12008237CD /* pez.cocoa.m */; };
+		ED7D36A61309D3B90088382B /* compressMG1.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF691309CB12008237CD /* compressMG1.c */; };
+		ED7D36A71309D3B90088382B /* compressMG2.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF6A1309CB12008237CD /* compressMG2.c */; };
+		ED7D36A81309D3B90088382B /* compressRAW.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF6B1309CB12008237CD /* compressRAW.c */; };
+		ED7D36A91309D3B90088382B /* openctm.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF6E1309CB12008237CD /* openctm.c */; };
+		ED7D36AA1309D3B90088382B /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF721309CB12008237CD /* stream.c */; };
+		ED7D36AB1309D3B90088382B /* pnglite.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF741309CB12008237CD /* pnglite.c */; };
+		ED7D36AC1309D3B90088382B /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF911309CB12008237CD /* adler32.c */; };
+		ED7D36AD1309D3B90088382B /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF931309CB12008237CD /* compress.c */; };
+		ED7D36AE1309D3B90088382B /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF941309CB12008237CD /* crc32.c */; };
+		ED7D36AF1309D3B90088382B /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF961309CB12008237CD /* deflate.c */; };
+		ED7D36B01309D3B90088382B /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF981309CB13008237CD /* gzclose.c */; };
+		ED7D36B11309D3B90088382B /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF9A1309CB13008237CD /* gzlib.c */; };
+		ED7D36B21309D3B90088382B /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF9B1309CB13008237CD /* gzread.c */; };
+		ED7D36B31309D3B90088382B /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF9C1309CB13008237CD /* gzwrite.c */; };
+		ED7D36B41309D3B90088382B /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF9D1309CB13008237CD /* infback.c */; };
+		ED7D36B51309D3B90088382B /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF9E1309CB13008237CD /* inffast.c */; };
+		ED7D36B61309D3B90088382B /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABFA11309CB13008237CD /* inflate.c */; };
+		ED7D36B71309D3B90088382B /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABFA31309CB13008237CD /* inftrees.c */; };
+		ED7D36B81309D3B90088382B /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EDFABFA51309CB13008237CD /* Makefile */; };
+		ED7D36B91309D3B90088382B /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABFA71309CB13008237CD /* trees.c */; };
+		ED7D36BA1309D3B90088382B /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABFA91309CB13008237CD /* uncompr.c */; };
+		ED7D36BB1309D3B90088382B /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABFB01309CB13008237CD /* zutil.c */; };
+		ED7D36D01309D3C40088382B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFABFD81309CB9A008237CD /* Cocoa.framework */; };
+		ED7D36D11309D3C40088382B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFABFDA1309CB9A008237CD /* OpenGL.framework */; };
 		EDFABFB21309CB13008237CD /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF4A1309CB12008237CD /* glew.c */; };
 		EDFABFB31309CB13008237CD /* bstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF4F1309CB12008237CD /* bstrlib.c */; };
 		EDFABFB41309CB13008237CD /* glsw.c in Sources */ = {isa = PBXBuildFile; fileRef = EDFABF511309CB12008237CD /* glsw.c */; };
@@ -55,12 +89,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ED7D36951309D2BC0088382B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Resources;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* PezHelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PezHelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859E8B029090EE04C91782 /* PezHelloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PezHelloWorld.1; sourceTree = "<group>"; };
+		ED13DE3B1309D7B900B1A959 /* OnedaySimple.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OnedaySimple.glsl; path = Resources/OnedaySimple.glsl; sourceTree = "<group>"; };
+		ED7D36761309D0590088382B /* Triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Triangle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7D36851309D0A60088382B /* Gandhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gandhi.png; path = Resources/Gandhi.png; sourceTree = "<group>"; };
+		ED7D36861309D0A60088382B /* HeadlessGiant.ctm */ = {isa = PBXFileReference; lastKnownFileType = file; name = HeadlessGiant.ctm; path = Resources/HeadlessGiant.ctm; sourceTree = "<group>"; };
+		ED7D36871309D0A60088382B /* PezTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PezTexture.png; path = Resources/PezTexture.png; sourceTree = "<group>"; };
+		ED7D36881309D0A60088382B /* PixelLighting.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PixelLighting.glsl; path = Resources/PixelLighting.glsl; sourceTree = "<group>"; };
+		ED7D36961309D3760088382B /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		EDFABF4A1309CB12008237CD /* glew.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glew.c; sourceTree = "<group>"; };
 		EDFABF4B1309CB12008237CD /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
 		EDFABF4C1309CB12008237CD /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
@@ -169,12 +219,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED7D36741309D0590088382B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7D36D01309D3C40088382B /* Cocoa.framework in Frameworks */,
+				ED7D36D11309D3C40088382B /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		08FB7794FE84155DC02AAC07 /* PezHelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				ED7D36831309D0920088382B /* Resources */,
 				EDFABF481309CB12008237CD /* lib */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				EDFABFD71309CB8B008237CD /* Frameworks */,
@@ -188,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				ED7D36961309D3760088382B /* Triangle.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -196,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				8DD76F6C0486A84900D96B5E /* PezHelloWorld */,
+				ED7D36761309D0590088382B /* Triangle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,6 +268,18 @@
 				C6859E8B029090EE04C91782 /* PezHelloWorld.1 */,
 			);
 			name = Documentation;
+			sourceTree = "<group>";
+		};
+		ED7D36831309D0920088382B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED13DE3B1309D7B900B1A959 /* OnedaySimple.glsl */,
+				ED7D36851309D0A60088382B /* Gandhi.png */,
+				ED7D36861309D0A60088382B /* HeadlessGiant.ctm */,
+				ED7D36871309D0A60088382B /* PezTexture.png */,
+				ED7D36881309D0A60088382B /* PixelLighting.glsl */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		EDFABF481309CB12008237CD /* lib */ = {
@@ -427,6 +501,23 @@
 			productReference = 8DD76F6C0486A84900D96B5E /* PezHelloWorld */;
 			productType = "com.apple.product-type.tool";
 		};
+		ED7D36751309D0590088382B /* Triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7D36821309D06F0088382B /* Build configuration list for PBXNativeTarget "Triangle" */;
+			buildPhases = (
+				ED7D36731309D0590088382B /* Sources */,
+				ED7D36741309D0590088382B /* Frameworks */,
+				ED7D36951309D2BC0088382B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triangle;
+			productName = Triangle;
+			productReference = ED7D36761309D0590088382B /* Triangle */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -447,6 +538,7 @@
 			projectRoot = "";
 			targets = (
 				8DD76F620486A84900D96B5E /* PezHelloWorld */,
+				ED7D36751309D0590088382B /* Triangle */,
 			);
 		};
 /* End PBXProject section */
@@ -488,6 +580,45 @@
 				EDFABFD01309CB13008237CD /* trees.c in Sources */,
 				EDFABFD11309CB13008237CD /* uncompr.c in Sources */,
 				EDFABFD21309CB13008237CD /* zutil.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7D36731309D0590088382B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7D369D1309D3B90088382B /* glew.c in Sources */,
+				ED7D369E1309D3B90088382B /* bstrlib.c in Sources */,
+				ED7D369F1309D3B90088382B /* glsw.c in Sources */,
+				ED7D36A01309D3B90088382B /* Alloc.c in Sources */,
+				ED7D36A11309D3B90088382B /* LzFind.c in Sources */,
+				ED7D36A21309D3B90088382B /* LzmaDec.c in Sources */,
+				ED7D36A31309D3B90088382B /* LzmaEnc.c in Sources */,
+				ED7D36A41309D3B90088382B /* LzmaLib.c in Sources */,
+				ED7D36A51309D3B90088382B /* pez.cocoa.m in Sources */,
+				ED7D36A61309D3B90088382B /* compressMG1.c in Sources */,
+				ED7D36A71309D3B90088382B /* compressMG2.c in Sources */,
+				ED7D36A81309D3B90088382B /* compressRAW.c in Sources */,
+				ED7D36A91309D3B90088382B /* openctm.c in Sources */,
+				ED7D36AA1309D3B90088382B /* stream.c in Sources */,
+				ED7D36AB1309D3B90088382B /* pnglite.c in Sources */,
+				ED7D36AC1309D3B90088382B /* adler32.c in Sources */,
+				ED7D36AD1309D3B90088382B /* compress.c in Sources */,
+				ED7D36AE1309D3B90088382B /* crc32.c in Sources */,
+				ED7D36AF1309D3B90088382B /* deflate.c in Sources */,
+				ED7D36B01309D3B90088382B /* gzclose.c in Sources */,
+				ED7D36B11309D3B90088382B /* gzlib.c in Sources */,
+				ED7D36B21309D3B90088382B /* gzread.c in Sources */,
+				ED7D36B31309D3B90088382B /* gzwrite.c in Sources */,
+				ED7D36B41309D3B90088382B /* infback.c in Sources */,
+				ED7D36B51309D3B90088382B /* inffast.c in Sources */,
+				ED7D36B61309D3B90088382B /* inflate.c in Sources */,
+				ED7D36B71309D3B90088382B /* inftrees.c in Sources */,
+				ED7D36B81309D3B90088382B /* Makefile in Sources */,
+				ED7D36B91309D3B90088382B /* trees.c in Sources */,
+				ED7D36BA1309D3B90088382B /* uncompr.c in Sources */,
+				ED7D36BB1309D3B90088382B /* zutil.c in Sources */,
+				ED7D36971309D3760088382B /* Triangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +678,52 @@
 			};
 			name = Release;
 		};
+		ED7D36781309D05A0088382B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Triangle;
+			};
+			name = Debug;
+		};
+		ED7D36791309D05A0088382B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Triangle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,6 +741,15 @@
 			buildConfigurations = (
 				1DEB923608733DC60010E9CD /* Debug */,
 				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7D36821309D06F0088382B /* Build configuration list for PBXNativeTarget "Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7D36781309D05A0088382B /* Debug */,
+				ED7D36791309D05A0088382B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
